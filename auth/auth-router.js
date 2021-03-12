@@ -14,7 +14,6 @@ router.use(cors(corsOptions));
   
   
 const Users = require("../database/users-model");
-const Commentary = require("../database/commentary/commentary-model")
   
 const restricted = require("./authenticate-middleware")
 
