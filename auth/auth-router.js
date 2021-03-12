@@ -96,16 +96,7 @@ router.get('/:id', restricted, (req, res) => {
 
 })
 
-router.get('/:id/commentary', restricted, (req, res) => {
 
-  const { id } = req.params
-  
-  Commentary.findByUserId(id)
-      .then(commentaries => {
-          res.status(200).json(commentaries)
-      })
-
-})
 
 router.put('/:id', restricted, (req, res) => {
   const { id } = req.params;
