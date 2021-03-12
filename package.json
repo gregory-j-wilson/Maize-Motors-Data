@@ -1,7 +1,7 @@
 {
-  "name": "chaqar-data",
+  "name": "maize-motors-data",
   "version": "1.0.0",
-  "description": "The backend for my Chaqar Bible App",
+  "description": "The backend database for Maize Motors website",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gregory-j-wilson/chaqar-data.git"
+    "url": "git+https://github.com/gregory-j-wilson/Maize-Motors-Data.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gregory-j-wilson/chaqar-data/issues"
+    "url": "https://github.com/gregory-j-wilson/Maize-Motors-Data/issues"
   },
-  "homepage": "https://github.com/gregory-j-wilson/chaqar-data#readme",
+  "homepage": "https://github.com/gregory-j-wilson/Maize-Motors-Data#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
